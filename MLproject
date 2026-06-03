@@ -2,12 +2,17 @@ name: Test_minimalist_example_uv
 
 uv_env: pyproject.toml
 
+target: disease_cases
+required_covariates:
+  - rainfall
+  - mean_temperature
+
 meta_data:
   display_name: Test_minimalist_example_uv
   description: >
     This's a test model
   author: PabloDelMedico
-  author_assessed_status: gray
+  author_assessed_status: green
   organization: HISP Centre, University of Oslo
   organization_logo_url: https://landportal.org/sites/default/files/2024-03/university_of_oslo_logo.png
   contact_email: knut.rand@dhis2.org
