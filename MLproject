@@ -1,6 +1,20 @@
-name: minimalist_example_uv
+name: Test_minimalist_example_uv
 
 uv_env: pyproject.toml
+
+meta_data:
+  display_name: Test_minimalist_example_uv
+  description: >
+    This's a test model
+  author: PabloDelMedico
+  author_assessed_status: gray
+  organization: HISP Centre, University of Oslo
+  organization_logo_url: https://landportal.org/sites/default/files/2024-03/university_of_oslo_logo.png
+  contact_email: knut.rand@dhis2.org
+  citation_info: >
+    Climate Health Analytics Platform. 2025. "CHAP-EWARS model".
+    HISP Centre, University of Oslo.
+    https://dhis2-chap.github.io/chap-core/external_models/overview_of_supported_models.html
 
 entry_points:
   train:
